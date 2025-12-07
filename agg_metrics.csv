@@ -1,0 +1,704 @@
+model,use_rag,scope,label,f1,precision,recall,BLEU,ROUGE1_F1,ROUGEL_F1,BERTScore_F1
+codellama:13b,True,overall,ALL,0.014223088290547841,0.01379174133780182,0.02180851063829787,0.0053278152547557535,0.12367630480681219,0.08474779937099508,0.8214198350906372
+codellama:13b,True,subcategory,"""functional""",0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,"""solution approach""",0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,'code organization',0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,'deprecated code',0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,'functional',0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,'functional'.,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,'logical',0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,'logical'.,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,'resource',0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,"'resource', 'timing'",0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,'solution approach',0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,'validation',0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,** 'functional',0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,** 'interface',0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,** <one of the 17 subcategories>,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,** code organization,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,** functional,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,** logging,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,** resource,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,`functional`,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,`functional`.,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,alternate output,0.0,0.0,0.0,0.004624766906647649,0.15039705207931037,0.1011172499859456,0.8446752429008484
+codellama:13b,True,subcategory,code organization,0.15873015873015872,0.11627906976744186,0.25,0.004686366110451099,0.15466688800121314,0.11326671448054684,0.8212901949882507
+codellama:13b,True,subcategory,design discussion,0.0,0.0,0.0,0.004762015345333987,0.12970961392014022,0.10154324479982374,0.8381503224372864
+codellama:13b,True,subcategory,documentation,0.06896551724137931,0.2,0.041666666666666664,0.00605507432042211,0.11432653282311529,0.07440246814597457,0.824718713760376
+codellama:13b,True,subcategory,false positive,0.0,0.0,0.0,0.0025483242539464587,0.06631452318460193,0.04584208223972003,0.8126929402351379
+codellama:13b,True,subcategory,function,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,functional,0.0,0.0,0.0,0.006159905789318918,0.13222208259087048,0.09291503360640213,0.8304286003112793
+codellama:13b,True,subcategory,functional.,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,functionality,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,indentation,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,interface,0.0,0.0,0.0,0.005079682358198154,0.10466673953362196,0.0722284388894879,0.8250821828842163
+codellama:13b,True,subcategory,logical,0.0,0.0,0.0,0.004197280030533271,0.16506618243132562,0.10691438382871102,0.8322292566299438
+codellama:13b,True,subcategory,praise,0.0,0.0,0.0,0.00615037402732817,0.043344882753128526,0.03061946651894036,0.8008173108100891
+codellama:13b,True,subcategory,question,0.0,0.0,0.0,0.0036393480653489066,0.09345506243014047,0.0673503099016247,0.8162147998809814
+codellama:13b,True,subcategory,resource,0.3157894736842105,0.21428571428571427,0.6,0.004766738686344118,0.11274095469747643,0.08119662945749903,0.8439527750015259
+codellama:13b,True,subcategory,solution approach,0.0,0.0,0.0,0.008516764094876788,0.15879778601890673,0.10761991834963572,0.8225446343421936
+codellama:13b,True,subcategory,support issues,0.0,0.0,0.0,0.004595379130543586,0.13122877472352287,0.07873022152411874,0.8160862922668457
+codellama:13b,True,subcategory,syntax error,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,syntax sugar,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,technical,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,timing,0.0,0.0,0.0,0.011221396358887284,0.21099726493029208,0.11221236903533256,0.8103126287460327
+codellama:13b,True,subcategory,unknown,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,unused code,0.0,0.0,0.0,,,,
+codellama:13b,True,subcategory,validation,0.125,0.11764705882352941,0.13333333333333333,0.005690635678928533,0.1693060157239112,0.10922048998066305,0.8283936977386475
+codellama:13b,True,subcategory,variable naming,0.0,0.0,0.0,0.004233804923650188,0.12340355240252104,0.09235961967749515,0.8209008574485779
+codellama:13b,True,subcategory,visual representation,0.0,0.0,0.0,0.003098926219386999,0.06218386395229347,0.044604653281461695,0.8093022704124451
+codellama:13b,True,category,discussion,0.0,0.0,0.0,0.004275594162787469,0.08727571673556395,0.06366731605310001,0.8155155777931213
+codellama:13b,True,category,documentation,0.06896551724137931,0.2,0.041666666666666664,0.00605507432042211,0.11432653282311529,0.07440246814597457,0.824718713760376
+codellama:13b,True,category,false positive,0.0,0.0,0.0,0.0025483242539464587,0.06631452318460193,0.04584208223972003,0.8126929402351379
+codellama:13b,True,category,functional,0.06296992481203008,0.04741896758703481,0.10476190476190475,0.00589554793889846,0.15416572143425886,0.10009707919888944,0.8276268243789673
+codellama:13b,True,category,refactoring,0.031746031746031744,0.023255813953488372,0.05,0.005623964566508206,0.13501397576151272,0.09443468797609607,0.8210977911949158
+codellama:13b,False,overall,ALL,0.013249370534790327,0.027116085668717246,0.023674242424242428,0.004968433371513964,0.11874516872315809,0.08242165259383304,0.8192981481552124
+codellama:13b,False,subcategory,"""code organization""",0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,'code organization',0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,'functional',0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,"'functional', 'logical', or 'validation'.",0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,'logical',0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,'resource',0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,'solution approach',0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,'validation',0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,'validation'.,0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,'variable naming',0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,* validation,0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,** code organization,0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,** resource,0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,** technical,0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,`functional`,0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,`variable naming`,0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,algorithm,0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,alternate output,0.0,0.0,0.0,0.0044598600972017115,0.11875620084569008,0.08109889754676586,0.8348577618598938
+codellama:13b,False,subcategory,code organization,0.06896551724137931,0.05263157894736842,0.1,0.0054165495009103354,0.18402218834348302,0.12980235178259766,0.8270747065544128
+codellama:13b,False,subcategory,coding conventions,0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,coding practices,0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,control flow,0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,design discussion,0.0,0.0,0.0,0.006117957701389219,0.14690113721047507,0.09247775362131279,0.8356683850288391
+codellama:13b,False,subcategory,documentation,0.07407407407407407,0.3333333333333333,0.041666666666666664,0.0056182777884414906,0.10339247273983133,0.07103165865254489,0.8182244896888733
+codellama:13b,False,subcategory,false positive,0.0,0.0,0.0,0.0034841418565941945,0.07617032392894461,0.05331318107180176,0.8195083737373352
+codellama:13b,False,subcategory,function call,0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,functional,0.1,0.05714285714285714,0.4,0.00338596040305724,0.11385381532891044,0.08007767325436763,0.822895884513855
+codellama:13b,False,subcategory,"i would categorize this review as ""code organization"" because the code is well-structured and easy to read, but there are some areas where it could benefit from further refinement. specifically, the `mask_token` parameter and related logic could be moved out of the `__init__` method and into a separate function or class that handles masking-related tasks. additionally, the code could benefit from more detailed docstrings to provide context for users who may not be familiar with this codebase.",0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,interface,0.0,0.0,0.0,0.0038866376555779397,0.11144076767163295,0.06958674166430469,0.8149267435073853
+codellama:13b,False,subcategory,logical,0.0,0.0,0.0,0.003034482486632445,0.12761599173827926,0.08296605520764928,0.8250012397766113
+codellama:13b,False,subcategory,logical error,0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,performance,0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,praise,0.0,0.0,0.0,0.0015640774901395731,0.04274533030513891,0.03476920993232433,0.7933433651924133
+codellama:13b,False,subcategory,question,0.0,0.0,0.0,0.002832028992364201,0.08192555408062678,0.05952033406029793,0.8127499222755432
+codellama:13b,False,subcategory,resource,0.19047619047619047,0.125,0.4,0.01456948609602211,0.1675562685643331,0.13153162588646458,0.8472385406494141
+codellama:13b,False,subcategory,solution approach,0.0625,0.5,0.03333333333333333,0.006369495376611846,0.1398355729035482,0.09576255739149135,0.8184776306152344
+codellama:13b,False,subcategory,"solution approach. the code provides a solution to the issue with `pretrainedconfig` being deprecated in favor of `pretrainedconfig`. by modifying the metaclass, the snippet ensures that `isinstance` and `issubclass` checks for `pretrainedconfig` return true as well for instances/classes of `pretrainedconfig`.",0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,support issues,0.0,0.0,0.0,0.004670150380924759,0.11729075303957197,0.08374409288788293,0.8103778958320618
+codellama:13b,False,subcategory,"this pull request is in the ""functional"" subcategory because it modifies the functionality of an existing method. the code in this pull request adds new functionality by generating a default config for the `get_config()` method, which was not previously part of the `__new__` method.",0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,timing,0.0,0.0,0.0,0.003493085517158917,0.16811378636119642,0.08937628809416297,0.8038569688796997
+codellama:13b,False,subcategory,unknown,0.0,0.0,0.0,,,,
+codellama:13b,False,subcategory,validation,0.0,0.0,0.0,0.007738852457733153,0.1578966991265814,0.10333234349136101,0.8224099278450012
+codellama:13b,False,subcategory,variable naming,0.08695652173913043,0.125,0.06666666666666667,0.006098699963318893,0.13516974392877115,0.1010663866996844,0.8286378383636475
+codellama:13b,False,subcategory,visual representation,0.0,0.0,0.0,0.004067152343562455,0.06712026620281736,0.04993898128697866,0.81904137134552
+codellama:13b,False,category,discussion,0.0,0.0,0.0,0.002938845765136038,0.08116390662226981,0.05814037391137904,0.811343252658844
+codellama:13b,False,category,documentation,0.07407407407407407,0.3333333333333333,0.041666666666666664,0.0056182777884414906,0.10339247273983133,0.07103165865254489,0.8182244896888733
+codellama:13b,False,category,false positive,0.0,0.0,0.0,0.0034841418565941945,0.07617032392894461,0.05331318107180176,0.8195083737373352
+codellama:13b,False,category,functional,0.041496598639455776,0.026020408163265306,0.1142857142857143,0.005724488619709406,0.14237057414902943,0.09554533473469462,0.822327733039856
+codellama:13b,False,category,refactoring,0.04368440779610195,0.13552631578947366,0.04,0.00572581622750175,0.13576251169607842,0.09520626157014864,0.822903037071228
+codestral:22b,True,overall,ALL,0.0,0.0,0.0,0.005308432354497914,0.14723203490745596,0.09478930222148314,0.826073169708252
+codestral:22b,True,subcategory,'validation',0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** 'code organization',0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,"** 'code organization', 'functional'",0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** 'documentation',0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** 'functional',0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** 'functional' and 'documentation',0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** 'functional' and 'validation'.,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** 'functional' and 'visual representation'.,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** 'logical',0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** 'logical' and 'code organization',0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** 'resource',0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,"** 'resource' and 'functional'. although the 'resource' subcategory primarily focuses on memory or cpu usage, in this context, it also refers to other system resources like disk space and network bandwidth. the 'functional' subcategory is applicable because the test ensures that the function behaves as intended.",0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,"** 'resource', 'timing', 'solution approach'",0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** 'support issues',0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** 'validation',0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** 'variable naming' and 'solution approach'.,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** code organization,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** documentation,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** documentation & functional,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** documentation (specifically for missing clarification),0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** error handling & validation,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** exception handling & validation,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** functional,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** functional & solution approach,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** functional & validation,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** functional (as this review is about the correctness and efficiency of the code),0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** functional (code organization),0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** functional (specifically code organization),0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** functional (specifically related to the correct functionality of the software),0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,"** functional (specifically, input validation)",0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,"** functional (specifically, type hint)",0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** functional and variable naming,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,"** functional, solution approach, documentation",0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** logical,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** logical & functional,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** logical (since the review comment is focusing on the logical correctness of adding a new test case),0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** logical (since the test is not providing a necessary input),0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,"** logical (specifically, unclear logic)",0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** logical (the function is testing for the wrong exception type.),0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** resource,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,"** resource, validation, solution approach",0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** security & privacy,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** solution approach,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** solution approach & validation,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** support issues,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,"** support issues (specifically, handling potential warnings)",0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** validation,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** validation & error handling,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** validation and functional,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** variable naming,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,** visual representation,0.0,0.0,0.0,,,,
+codestral:22b,True,subcategory,alternate output,0.0,0.0,0.0,0.004435902518307981,0.1589827142402653,0.10073491143800706,0.849460244178772
+codestral:22b,True,subcategory,code organization,0.0,0.0,0.0,0.008397460170213176,0.22343026148074144,0.1423866044431666,0.8354250192642212
+codestral:22b,True,subcategory,design discussion,0.0,0.0,0.0,0.005736385419764583,0.154472140654086,0.11174898120253786,0.8456839919090271
+codestral:22b,True,subcategory,documentation,0.0,0.0,0.0,0.005411381599195356,0.14027941172115088,0.09004962972899984,0.8242408633232117
+codestral:22b,True,subcategory,false positive,0.0,0.0,0.0,0.003124134315618274,0.07178733994825949,0.05312637128729082,0.8224526643753052
+codestral:22b,True,subcategory,functional,0.0,0.0,0.0,0.0094376454337663,0.15697943210300055,0.1007807377233269,0.8346723318099976
+codestral:22b,True,subcategory,interface,0.0,0.0,0.0,0.003506316765486977,0.148345913505006,0.08806020443587682,0.8325284123420715
+codestral:22b,True,subcategory,logical,0.0,0.0,0.0,0.004824037716883287,0.1905153500681729,0.12391231038270686,0.837706446647644
+codestral:22b,True,subcategory,praise,0.0,0.0,0.0,0.006567929877343756,0.06436586852845272,0.048462008751523795,0.8084142804145813
+codestral:22b,True,subcategory,question,0.0,0.0,0.0,0.0043608730033641825,0.12022418656482683,0.08146691639470509,0.8182457089424133
+codestral:22b,True,subcategory,resource,0.0,0.0,0.0,0.0037763802468353375,0.14364992261150977,0.0936833674275633,0.8411410450935364
+codestral:22b,True,subcategory,solution approach,0.0,0.0,0.0,0.006069340454010324,0.16945489411745826,0.10179198329891986,0.8258019685745239
+codestral:22b,True,subcategory,support issues,0.0,0.0,0.0,0.0032694976565221853,0.13175254427789926,0.08304543226787986,0.8229019641876221
+codestral:22b,True,subcategory,timing,0.0,0.0,0.0,0.0061076053502177865,0.19014536296485937,0.12300257447175995,0.8158095479011536
+codestral:22b,True,subcategory,validation,0.0,0.0,0.0,0.004710476691476351,0.17937189963398942,0.09937013096836095,0.826650083065033
+codestral:22b,True,subcategory,variable naming,0.0,0.0,0.0,0.004721681667330357,0.13798413490405942,0.09536251706499324,0.8252609372138977
+codestral:22b,True,subcategory,visual representation,0.0,0.0,0.0,0.0032869031989009247,0.08782912527317652,0.06410905683038894,0.8214089870452881
+codestral:22b,True,category,discussion,0.0,0.0,0.0,0.004963293375811919,0.11265096853029793,0.07810836833492736,0.8192917108535767
+codestral:22b,True,category,documentation,0.0,0.0,0.0,0.005411381599195356,0.14027941172115088,0.09004962972899984,0.8242408633232117
+codestral:22b,True,category,false positive,0.0,0.0,0.0,0.003124134315618274,0.07178733994825949,0.05312637128729082,0.8224526643753052
+codestral:22b,True,category,functional,0.0,0.0,0.0,0.005045456296555288,0.17032770461933436,0.10438271891505703,0.8305418491363525
+codestral:22b,True,category,refactoring,0.0,0.0,0.0,0.005787444450543564,0.16219251740793114,0.10363652114631504,0.8285117149353027
+codestral:22b,False,overall,ALL,0.0,0.0,0.0,0.004887108001563351,0.14874371259806501,0.094843405001473,0.8258830308914185
+codestral:22b,False,subcategory,'functional',0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** 'code organization',0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** 'documentation',0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** 'functional',0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** 'functional' (as the code is working correctly but could be optimized),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** 'functional' and 'validation',0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** 'resource',0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** 'solution approach',0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** 'support issues',0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** 'validation',0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** 'variable naming',0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** alternate output / user feedback,0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** code organization,0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** documentation,0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** functional,0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** functional (as the behavior inside `__eq__` breaks the expected functionality of this method),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** functional (code organization),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** functional (focusing on how well the code performs its intended function),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** functional (incorrect usage of function),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** functional (particularly edge case handling),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** functional (since it relates to how the function works),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** functional (since this change may have unexpected side-effects in different environments),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** functional (specifically related to the correct use of functions and their return values),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,"** functional (specifically, lack of clarity in code functionality)",0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,"** functional (specifically, usage of libraries)",0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** functional (the change in code functionality),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** functional and validation,0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** logical,0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** logical (as this addition might not be necessary for the current function but could serve a purpose in other parts of the codebase),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** logical (as this is a logical inconsistency in the code),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** logical (since changing the data structure could lead to logical errors),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,"** logical (specifically, related to how the code performs boolean indexing)",0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,"** logical (specifically, unnecessary complexity)",0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** resource,0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** resource (as the review is focused on a potential resource leak due to incorrect configuration management),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** resource (specifically computational cost),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** solution approach,0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** solution approach (specifically the approach of handling multiple types of callables),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** support issues,0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** timing and solution approach,0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** validation,0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** validation & error handling,0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** validation (logical subcategory),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** validation and error handling,0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,** variable naming,0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,alternate output,0.0,0.0,0.0,0.006480470928269139,0.18731930558324036,0.11154235310437118,0.8570966720581055
+codestral:22b,False,subcategory,code organization,0.0,0.0,0.0,0.006577471476338198,0.22107595882165,0.14548362932839326,0.8337194323539734
+codestral:22b,False,subcategory,design discussion,0.0,0.0,0.0,0.0035922521060661222,0.1367145302510316,0.09242156731347621,0.8452181220054626
+codestral:22b,False,subcategory,documentation,0.0,0.0,0.0,0.005041071146903175,0.1440140765002131,0.09647352639617372,0.8236729502677917
+codestral:22b,False,subcategory,false positive,0.0,0.0,0.0,0.005642725782870173,0.07548891159690035,0.05056038100799241,0.8196462392807007
+codestral:22b,False,subcategory,functional,0.0,0.0,0.0,0.006768946439352599,0.14777636916835699,0.09279918864097363,0.835394561290741
+codestral:22b,False,subcategory,functional (the code works but can be improved for efficiency or readability),0.0,0.0,0.0,,,,
+codestral:22b,False,subcategory,interface,0.0,0.0,0.0,0.005619903346178321,0.17141219941103875,0.10702063993087221,0.8295489549636841
+codestral:22b,False,subcategory,logical,0.0,0.0,0.0,0.005513561276837993,0.18107586428788444,0.11247869850296752,0.8350254893302917
+codestral:22b,False,subcategory,praise,0.0,0.0,0.0,0.001953224033734565,0.06164020861594575,0.042275882625113725,0.8026151657104492
+codestral:22b,False,subcategory,question,0.0,0.0,0.0,0.004292897425066763,0.12289324773233867,0.08107544731794258,0.8210922479629517
+codestral:22b,False,subcategory,resource,0.0,0.0,0.0,0.0116671315743159,0.17734203822857897,0.12288789073824076,0.8568891286849976
+codestral:22b,False,subcategory,solution approach,0.0,0.0,0.0,0.004771162111702791,0.16323132726345194,0.09805093952712739,0.8232232332229614
+codestral:22b,False,subcategory,support issues,0.0,0.0,0.0,0.0028932477257727954,0.10322569260019139,0.07228349481757661,0.8105775713920593
+codestral:22b,False,subcategory,timing,0.0,0.0,0.0,0.005271912471087237,0.23472977650851345,0.14229355114066608,0.8225781321525574
+codestral:22b,False,subcategory,validation,0.0,0.0,0.0,0.005223314148409454,0.17994486355212136,0.1059391939158272,0.8308566212654114
+codestral:22b,False,subcategory,variable naming,0.0,0.0,0.0,0.0045678612790629285,0.14925437815402257,0.09298441955897413,0.8262412548065186
+codestral:22b,False,subcategory,visual representation,0.0,0.0,0.0,0.0027952362273312966,0.08605882573115482,0.055171972079697346,0.8169956207275391
+codestral:22b,False,category,discussion,0.0,0.0,0.0,0.0037384478099064295,0.11195147485885414,0.07443251228742563,0.820009171962738
+codestral:22b,False,category,documentation,0.0,0.0,0.0,0.005041071146903175,0.1440140765002131,0.09647352639617372,0.8236729502677917
+codestral:22b,False,category,false positive,0.0,0.0,0.0,0.005642725782870173,0.07548891159690035,0.05056038100799241,0.8196462392807007
+codestral:22b,False,category,functional,0.0,0.0,0.0,0.005958088637153252,0.17353733570843588,0.10875173268191043,0.8317532539367676
+codestral:22b,False,category,refactoring,0.0,0.0,0.0,0.004899077217935837,0.1633494858570306,0.10185607201375005,0.8271678686141968
+qwen3-coder:30b,True,overall,ALL,0.0,0.0,0.0,0.003593532729658141,0.13114177035699945,0.08585222711061535,0.816755473613739
+qwen3-coder:30b,True,subcategory,** **code organization**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** **documentation**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** **functional**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** **logical**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** **resource**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** **security**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** **solution approach**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** **support issues**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** **validation**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** **variable naming**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** code organization,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** design discussion,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** documentation,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** functional,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** interface,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** logical,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** resource,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** solution approach,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** support issues,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** timing,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** validation,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,** visual representation,0.0,0.0,0.0,,,,
+qwen3-coder:30b,True,subcategory,alternate output,0.0,0.0,0.0,0.006020372282105346,0.16203213693035273,0.11956733917056114,0.8531769514083862
+qwen3-coder:30b,True,subcategory,code organization,0.0,0.0,0.0,0.00515998794291968,0.18293433572130607,0.12706568709776486,0.8254467248916626
+qwen3-coder:30b,True,subcategory,design discussion,0.0,0.0,0.0,0.0027246516083099578,0.10968969673149219,0.07363766304100362,0.8304963111877441
+qwen3-coder:30b,True,subcategory,documentation,0.0,0.0,0.0,0.0033267145583351157,0.1301489783950165,0.08695953553519152,0.8145627975463867
+qwen3-coder:30b,True,subcategory,false positive,0.0,0.0,0.0,0.002396196914714807,0.0814333157429606,0.05590140084934357,0.8137186765670776
+qwen3-coder:30b,True,subcategory,functional,0.0,0.0,0.0,0.003576978651957537,0.1342192513368984,0.09444919786096256,0.8264800906181335
+qwen3-coder:30b,True,subcategory,interface,0.0,0.0,0.0,0.0031459239412648604,0.1544714498365535,0.09168171364283237,0.8256460428237915
+qwen3-coder:30b,True,subcategory,logical,0.0,0.0,0.0,0.003871986832752012,0.17400992986243813,0.10130903464420185,0.8237978219985962
+qwen3-coder:30b,True,subcategory,praise,0.0,0.0,0.0,0.0016031968065412495,0.05662081052057882,0.04261651739769655,0.789668083190918
+qwen3-coder:30b,True,subcategory,question,0.0,0.0,0.0,0.0023476971160498483,0.09498344198159081,0.06388394998050409,0.8112557530403137
+qwen3-coder:30b,True,subcategory,resource,0.0,0.0,0.0,0.004002561332160844,0.14011180229667625,0.09798974135108589,0.8350895643234253
+qwen3-coder:30b,True,subcategory,solution approach,0.0,0.0,0.0,0.00428521743521781,0.16562582664961928,0.0995765922172372,0.819293737411499
+qwen3-coder:30b,True,subcategory,support issues,0.0,0.0,0.0,0.0025487522873745756,0.10835942877221284,0.06819949631510396,0.806049644947052
+qwen3-coder:30b,True,subcategory,timing,0.0,0.0,0.0,0.007697830637105811,0.19940587580539942,0.12106648232389405,0.8068510293960571
+qwen3-coder:30b,True,subcategory,validation,0.0,0.0,0.0,0.0045387329317506725,0.16182578709419618,0.10191122014756414,0.8206177949905396
+qwen3-coder:30b,True,subcategory,variable naming,0.0,0.0,0.0,0.0041226000411971,0.12235946800828416,0.0849312112130796,0.8166091442108154
+qwen3-coder:30b,True,subcategory,visual representation,0.0,0.0,0.0,0.002247662135589067,0.0692283742385028,0.04705968708088385,0.8058004975318909
+qwen3-coder:30b,True,category,discussion,0.0,0.0,0.0,0.0022379234780677383,0.08880286017470704,0.06063544109072842,0.8089960813522339
+qwen3-coder:30b,True,category,documentation,0.0,0.0,0.0,0.0033267145583351157,0.1301489783950165,0.08695953553519152,0.8145627975463867
+qwen3-coder:30b,True,category,false positive,0.0,0.0,0.0,0.002396196914714807,0.0814333157429606,0.05590140084934357,0.8137186765670776
+qwen3-coder:30b,True,category,functional,0.0,0.0,0.0,0.004193433178469102,0.15395267769344323,0.096609541892605,0.8208246827125549
+qwen3-coder:30b,True,category,refactoring,0.0,0.0,0.0,0.004255415971703414,0.14802421158532547,0.09712626800455515,0.8201286792755127
+qwen3-coder:30b,False,overall,ALL,0.0,0.0,0.0,0.004081270537863603,0.13406095489608752,0.08585116733546447,0.8171787261962891
+qwen3-coder:30b,False,subcategory,** 'logical',0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** **code organization**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** **design discussion**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** **documentation**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** **functional**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** **logical**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** **resource**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** **solution approach**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** **support issues**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** **timing**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** **validation**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** **variable naming**,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** code organization,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** design discussion,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** documentation,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** functional,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** interface,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** logical,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** performance,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** resource,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** solution approach,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** support issues,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** validation,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,** visual representation,0.0,0.0,0.0,,,,
+qwen3-coder:30b,False,subcategory,alternate output,0.0,0.0,0.0,0.00412167976956142,0.149009584525154,0.1023317353260927,0.8495820760726929
+qwen3-coder:30b,False,subcategory,code organization,0.0,0.0,0.0,0.005785738358563362,0.19907893311038968,0.13387973923036345,0.826034426689148
+qwen3-coder:30b,False,subcategory,design discussion,0.0,0.0,0.0,0.004025334193868754,0.11793741922386232,0.08890829584197872,0.8321101069450378
+qwen3-coder:30b,False,subcategory,documentation,0.0,0.0,0.0,0.005204333372166384,0.12447619243103658,0.0787146605617502,0.8149828910827637
+qwen3-coder:30b,False,subcategory,false positive,0.0,0.0,0.0,0.002494680117297058,0.07375060778431931,0.04990954818167031,0.8157113790512085
+qwen3-coder:30b,False,subcategory,functional,0.0,0.0,0.0,0.004337919521992259,0.13689916632240604,0.10204364877693624,0.8275567889213562
+qwen3-coder:30b,False,subcategory,interface,0.0,0.0,0.0,0.003641398569664595,0.15609901473570634,0.09717885484911636,0.8266037106513977
+qwen3-coder:30b,False,subcategory,logical,0.0,0.0,0.0,0.0039037843081171203,0.17827927798313398,0.09863612391987188,0.8232834935188293
+qwen3-coder:30b,False,subcategory,praise,0.0,0.0,0.0,0.001365129566026107,0.054387103513139905,0.04147355143495025,0.7893958687782288
+qwen3-coder:30b,False,subcategory,question,0.0,0.0,0.0,0.0026347392572658944,0.09476523052587338,0.06593011417596167,0.8108606338500977
+qwen3-coder:30b,False,subcategory,resource,0.0,0.0,0.0,0.0036015664906323824,0.12485321058613912,0.08555263207244446,0.8351072072982788
+qwen3-coder:30b,False,subcategory,solution approach,0.0,0.0,0.0,0.005463278391224047,0.17563166429254892,0.09732729200863392,0.8182138204574585
+qwen3-coder:30b,False,subcategory,support issues,0.0,0.0,0.0,0.002882014677929788,0.1059663212827018,0.07189264642437247,0.8042237162590027
+qwen3-coder:30b,False,subcategory,timing,0.0,0.0,0.0,0.009102285283393111,0.21152031205586583,0.1229661482807393,0.8134407997131348
+qwen3-coder:30b,False,subcategory,validation,0.0,0.0,0.0,0.003408149829930293,0.16585298943185994,0.0988558838881137,0.8231220245361328
+qwen3-coder:30b,False,subcategory,variable naming,0.0,0.0,0.0,0.004215601352941424,0.13328697848773657,0.09215208598762871,0.8169390559196472
+qwen3-coder:30b,False,subcategory,visual representation,0.0,0.0,0.0,0.0028677658702732645,0.06728647025441328,0.0485627188295773,0.8095483183860779
+qwen3-coder:30b,False,category,discussion,0.0,0.0,0.0,0.002530625609413663,0.08911474413787088,0.06350135306197975,0.8088492751121521
+qwen3-coder:30b,False,category,documentation,0.0,0.0,0.0,0.005204333372166384,0.12447619243103658,0.0787146605617502,0.8149828910827637
+qwen3-coder:30b,False,category,false positive,0.0,0.0,0.0,0.002494680117297058,0.07375060778431931,0.04990954818167031,0.8157113790512085
+qwen3-coder:30b,False,category,functional,0.0,0.0,0.0,0.004215062411308268,0.1569341558909441,0.09688080267977826,0.82160484790802
+qwen3-coder:30b,False,category,refactoring,0.0,0.0,0.0,0.0047720404967163356,0.15566835210943197,0.09783202997701922,0.8206135630607605
+mistral:7b-instruct,True,overall,ALL,0.0,0.0,0.0,0.0038582579088980522,0.1356270416621133,0.08578861613144351,0.8194882273674011
+mistral:7b-instruct,True,subcategory,**,0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** 'code organization',0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** 'code organization' or 'variable naming' (depending on whether you focus on the action of adding the variable or the choice of naming),0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** 'documentation', 'design discussion'",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** 'functional' (as the comments pertain to functional testing and ensuring the correct behavior of the `super_len` function),0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** 'functional' (as this comment relates to changes in functionality and behavior of the codebase),0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** 'functional' (since new functionality has been introduced),0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** 'functional' (since this comment pertains to the functionality of the code),0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** 'functional' (since this concerns the functionality of the code),0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** 'functional' (this review focuses on the functionality of the code.),0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** 'functional', 'documentation'",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** 'interface' and 'documentation',0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** 'validation',0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** [functional, solution approach, documentation, code organization, validation]",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** code organization,0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** code organization, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** code organization, documentation, interface",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** code organization, functional",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** code organization, solution approach",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** code organization, support issues",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** code organization, validation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** code organization, variable naming",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** code organization, variable naming, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** code organization, variable naming, documentation, design discussion",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** code organization, variable naming, interface",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** design discussion,0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** documentation,0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** documentation, code organization",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** documentation, code organization, interface",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** documentation, code organization, validation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** documentation, code organization, variable naming, visual representation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** documentation, design discussion",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** documentation, functional",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** documentation, functionality, code organization, variable naming",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** documentation, interface",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** documentation, interface, code organization",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** documentation, interface, design discussion",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** documentation, solution approach, functional",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** documentation, solution approach, interface",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** documentation, validation, code organization",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** documentation, variable naming",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** functional,0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** functional (since this review comment pertains to function behavior),0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** functional, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** functional, logical, validation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** functional, validation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** functional, validation, code organization, visual representation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** interface,0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** interface (as the changes are related to the method's interface) and design discussion (since the code modification affects the design of the `in_bulk()` method),0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** interface, code organization",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** interface, validation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** interface, variable naming, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** logical,0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** logical, solution approach, validation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** resource,0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** resource (handling missing resources gracefully),0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** solution approach,0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** solution approach, code organization",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** solution approach, code organization, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** solution approach, code organization, interface",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** solution approach, documentation, interface",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** solution approach, interface, resource",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** solution approach, variable naming, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** support issues,0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** timing,0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** validation,0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** validation, solution approach, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,** variable naming,0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** variable naming, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** variable naming, documentation, code organization",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,"** variable naming, documentation, resource, error handling, timing",0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,alternate output,0.0,0.0,0.0,0.006536180404521347,0.17263148199318412,0.12297780233950446,0.862459659576416
+mistral:7b-instruct,True,subcategory,code organization,0.0,0.0,0.0,0.004365741100932496,0.18306094409506052,0.12617678771532242,0.8238145709037781
+mistral:7b-instruct,True,subcategory,design discussion,0.0,0.0,0.0,0.004126686992131432,0.12808810111097685,0.08796741894698705,0.8432831168174744
+mistral:7b-instruct,True,subcategory,documentation,0.0,0.0,0.0,0.003549126506186147,0.1176747469624957,0.07200531494526251,0.8162081241607666
+mistral:7b-instruct,True,subcategory,false positive,0.0,0.0,0.0,0.001630075118989504,0.06121044391864303,0.04014840208063123,0.8166592717170715
+mistral:7b-instruct,True,subcategory,functional,0.0,0.0,0.0,0.004602039188692587,0.1493024243142095,0.09655839764104812,0.8247691988945007
+mistral:7b-instruct,True,subcategory,interface,0.0,0.0,0.0,0.003310903779656918,0.14194583854875936,0.09264204108040491,0.821079432964325
+mistral:7b-instruct,True,subcategory,logical,0.0,0.0,0.0,0.004091410539486526,0.17840626086688433,0.10151007183950571,0.8259992599487305
+mistral:7b-instruct,True,subcategory,praise,0.0,0.0,0.0,0.0011058013846054074,0.039149653498505126,0.029692122086300198,0.7979512810707092
+mistral:7b-instruct,True,subcategory,question,0.0,0.0,0.0,0.002712793135018811,0.10072768214808567,0.06770598324672754,0.8129817247390747
+mistral:7b-instruct,True,subcategory,resource,0.0,0.0,0.0,0.0052588567054939125,0.13090995675433453,0.08645258360056537,0.8431363105773926
+mistral:7b-instruct,True,subcategory,solution approach,0.0,0.0,0.0,0.005880762581137024,0.1857245909955849,0.11132704747829632,0.8235663175582886
+mistral:7b-instruct,True,subcategory,support issues,0.0,0.0,0.0,0.0026559094590714975,0.12695113517803813,0.08656382545400126,0.8111298680305481
+mistral:7b-instruct,True,subcategory,timing,0.0,0.0,0.0,0.010419724887942182,0.19331091241605952,0.10664704687485063,0.8062178492546082
+mistral:7b-instruct,True,subcategory,unknown,0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,validation,0.0,0.0,0.0,0.0037021738324188426,0.17676420797734274,0.09865528401552474,0.8221116662025452
+mistral:7b-instruct,True,subcategory,validation),0.0,0.0,0.0,,,,
+mistral:7b-instruct,True,subcategory,variable naming,0.0,0.0,0.0,0.0029668570473549423,0.13022934518131826,0.08495703131496017,0.8164567351341248
+mistral:7b-instruct,True,subcategory,visual representation,0.0,0.0,0.0,0.002719540129086294,0.08081465079526243,0.04994738132769998,0.8124829530715942
+mistral:7b-instruct,True,category,discussion,0.0,0.0,0.0,0.002542542281095261,0.09122405619682568,0.062213689569632295,0.8132867217063904
+mistral:7b-instruct,True,category,documentation,0.0,0.0,0.0,0.003549126506186147,0.1176747469624957,0.07200531494526251,0.8162081241607666
+mistral:7b-instruct,True,category,false positive,0.0,0.0,0.0,0.001630075118989504,0.06121044391864303,0.04014840208063123,0.8166592717170715
+mistral:7b-instruct,True,category,functional,0.0,0.0,0.0,0.004595305190784869,0.15894535924465505,0.09583150592739427,0.8222252130508423
+mistral:7b-instruct,True,category,refactoring,0.0,0.0,0.0,0.004486309663917557,0.1598506535371921,0.10162078093218965,0.8229513764381409
+mistral:7b-instruct,False,overall,ALL,0.0,0.0,0.0,0.004599382947681775,0.13695482566492148,0.08783997864711605,0.8171951174736023
+mistral:7b-instruct,False,subcategory,** 'code organization',0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,** 'functional' (as the code is mostly about the functionality of the function being implemented),0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,** 'functional' (as the review comment focuses on the functionality of the new test function and its execution),0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,** 'resource' (because this review comment involves managing dependencies and resource usage),0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,** 'validation',0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** ['logical', 'validation', 'code organization', 'variable naming', 'documentation']",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** [testing, interface, resource]",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,** code organization,0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** code organization, design discussion",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** code organization, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** code organization, documentation, solution approach",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** code organization, interface",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** code organization, interface, solution approach, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** code organization, logical",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** code organization, resource, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** code organization, validation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** code organization, variable naming",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** code organization, variable naming, design discussion",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** code organization, variable naming, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** code organization, variable naming, documentation, design discussion",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** code organization, variable naming, documentation, design discussion, question",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** code organization, variable naming, functional",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** code organization, visual representation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** design discussion, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,** documentation,0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** documentation, code organization",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** documentation, code organization, interface, validation, design discussion",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** documentation, code organization, variable naming",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** documentation, code organization, visual representation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** documentation, design discussion",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** documentation, interface",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** documentation, interface, code organization",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** documentation, interface, code organization, solution approach",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** documentation, interface, solution approach",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** documentation, interface, validation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** documentation, variable naming",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** documentation, variable naming, code organization",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,** functional,0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** functional, code organization, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** functional, documentation, code organization, variable naming",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** functional, logical, resource, support issues, code organization, variable naming, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** functional, resource, timing, error handling, interface, design discussion",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** functional, validation, interface",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** functional, variable naming, code organization, visual representation, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,** interface,0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** interface, code organization, logical",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** interface, design discussion",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** interface, solution approach",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,** logical,0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,** logical (since the added function addresses a logical aspect of the code),0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,** logical validation,0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** logical, documentation, solution approach",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** logical, validation, code organization, variable naming, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** logical, validation, interface, solution approach",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,** resource,0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,** resource (since the issue is related to formatting),0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** resource, functional",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,** solution approach,0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** solution approach, alternate output",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** solution approach, code organization",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** solution approach, code organization, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** solution approach, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** solution approach, variable naming, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** support issues, documentation",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** timing, resource",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,** validation,0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** validation, documentation, coding style",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,** variable naming,0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,"** variable naming, code organization",0.0,0.0,0.0,,,,
+mistral:7b-instruct,False,subcategory,alternate output,0.0,0.0,0.0,0.007250171092543526,0.18633743260608931,0.11525331495480748,0.8538403511047363
+mistral:7b-instruct,False,subcategory,code organization,0.0,0.0,0.0,0.008664628164468056,0.18877441735988051,0.12228624121198275,0.823076605796814
+mistral:7b-instruct,False,subcategory,design discussion,0.0,0.0,0.0,0.0043844801285496,0.13736394181123177,0.0930409650996762,0.8444262146949768
+mistral:7b-instruct,False,subcategory,documentation,0.0,0.0,0.0,0.005240143103656068,0.11879226698734034,0.07640036639590655,0.8137218356132507
+mistral:7b-instruct,False,subcategory,false positive,0.0,0.0,0.0,0.00230970936419821,0.05782011892196426,0.04175388265958192,0.8159332275390625
+mistral:7b-instruct,False,subcategory,functional,0.0,0.0,0.0,0.0035763403286021753,0.13277641788218977,0.08939438074567292,0.8234472274780273
+mistral:7b-instruct,False,subcategory,interface,0.0,0.0,0.0,0.0035135558393894852,0.14676506274859763,0.09229613958213034,0.8169719576835632
+mistral:7b-instruct,False,subcategory,logical,0.0,0.0,0.0,0.0048238003836743445,0.18463018082200117,0.11735611057628444,0.8200749158859253
+mistral:7b-instruct,False,subcategory,praise,0.0,0.0,0.0,0.0017357154739428482,0.05517452223351759,0.04716994870020331,0.7950645089149475
+mistral:7b-instruct,False,subcategory,question,0.0,0.0,0.0,0.0029843456537157506,0.10660521779915573,0.06875391208437294,0.8118885159492493
+mistral:7b-instruct,False,subcategory,resource,0.0,0.0,0.0,0.00663978393812182,0.169310445941462,0.11519739346611005,0.840279221534729
+mistral:7b-instruct,False,subcategory,solution approach,0.0,0.0,0.0,0.0057291895108730765,0.17567524608325344,0.10761189087302969,0.820388913154602
+mistral:7b-instruct,False,subcategory,support issues,0.0,0.0,0.0,0.003626235566294354,0.11847225719414073,0.08360266630184647,0.8115968704223633
+mistral:7b-instruct,False,subcategory,timing,0.0,0.0,0.0,0.01103896932100209,0.22296512087653958,0.12139350822900108,0.8100513219833374
+mistral:7b-instruct,False,subcategory,validation,0.0,0.0,0.0,0.0034858200477119665,0.16025029751410452,0.09459906829055337,0.8174946308135986
+mistral:7b-instruct,False,subcategory,variable naming,0.0,0.0,0.0,0.003158000068181484,0.12767560146785034,0.08995017934338513,0.8148709535598755
+mistral:7b-instruct,False,subcategory,visual representation,0.0,0.0,0.0,0.002309115998407437,0.07623413437641055,0.047132010215405376,0.8090960383415222
+mistral:7b-instruct,False,category,discussion,0.0,0.0,0.0,0.0028855655587435502,0.09954623062971937,0.06705574024855726,0.8120766282081604
+mistral:7b-instruct,False,category,documentation,0.0,0.0,0.0,0.005240143103656068,0.11879226698734034,0.07640036639590655,0.8137218356132507
+mistral:7b-instruct,False,category,false positive,0.0,0.0,0.0,0.00230970936419821,0.05782011892196426,0.04175388265958192,0.8159332275390625
+mistral:7b-instruct,False,category,functional,0.0,0.0,0.0,0.004852351340890892,0.1617008090698394,0.10269405174550798,0.8192002773284912
+mistral:7b-instruct,False,category,refactoring,0.0,0.0,0.0,0.005503762037160861,0.1561731578510137,0.09837124522532174,0.8203595280647278
+deepseek-coder-33b,True,overall,ALL,0.0,0.0,0.0,0.0017340466483698814,0.010264372454364892,0.009833304971754737,0.7389867305755615
+deepseek-coder-33b,True,subcategory,alternate output,0.0,0.0,0.0,0.0021582121578455535,0.009251559251559252,0.009251559251559252,0.7516319155693054
+deepseek-coder-33b,True,subcategory,code organization,0.0,0.0,0.0,0.00688609985297908,0.026813081501654366,0.025531030219603085,0.7421010732650757
+deepseek-coder-33b,True,subcategory,design discussion,0.0,0.0,0.0,0.0,0.0,0.0,0.740912139415741
+deepseek-coder-33b,True,subcategory,documentation,0.0,0.0,0.0,0.0013709948486792113,0.012722475972518318,0.012722475972518318,0.7385155558586121
+deepseek-coder-33b,True,subcategory,false positive,0.0,0.0,0.0,0.0010949741420907303,0.005714285714285715,0.005714285714285715,0.740243136882782
+deepseek-coder-33b,True,subcategory,functional,0.0,0.0,0.0,0.0024469113935847863,0.01425047958344752,0.01425047958344752,0.7405091524124146
+deepseek-coder-33b,True,subcategory,interface,0.0,0.0,0.0,0.0010949741420907303,0.005721296655043265,0.005721296655043265,0.7405928373336792
+deepseek-coder-33b,True,subcategory,logical,0.0,0.0,0.0,0.0017544370249658933,0.012751689997027157,0.010790905683301665,0.7414472699165344
+deepseek-coder-33b,True,subcategory,praise,0.0,0.0,0.0,0.0,0.0,0.0,0.7285455465316772
+deepseek-coder-33b,True,subcategory,question,0.0,0.0,0.0,0.0011993486944354577,0.007541521894358897,0.006972531851684643,0.7353704571723938
+deepseek-coder-33b,True,subcategory,resource,0.0,0.0,0.0,0.0010949741420907303,0.004878048780487805,0.004878048780487805,0.7491649389266968
+deepseek-coder-33b,True,subcategory,solution approach,0.0,0.0,0.0,0.0010370560011881277,0.01018802054831106,0.01018802054831106,0.741192102432251
+deepseek-coder-33b,True,subcategory,support issues,0.0,0.0,0.0,0.0007958330797624927,0.0042285886496769695,0.0042285886496769695,0.7358916401863098
+deepseek-coder-33b,True,subcategory,timing,0.0,0.0,0.0,0.0013645223539873786,0.012622314009981216,0.010400091787758995,0.7321281433105469
+deepseek-coder-33b,True,subcategory,unknown,0.0,0.0,0.0,,,,
+deepseek-coder-33b,True,subcategory,validation,0.0,0.0,0.0,0.002708610360743716,0.016770467573388587,0.016770467573388587,0.7394208312034607
+deepseek-coder-33b,True,subcategory,variable naming,0.0,0.0,0.0,0.0010627718051974746,0.007560189710727344,0.006484920893523044,0.7405612468719482
+deepseek-coder-33b,True,subcategory,visual representation,0.0,0.0,0.0,0.00038551728175573207,0.0016194331983805667,0.0016194331983805667,0.7376053333282471
+deepseek-coder-33b,True,category,discussion,0.0,0.0,0.0,0.0008217759572983692,0.0051673390757644285,0.004777475528006144,0.7345959544181824
+deepseek-coder-33b,True,category,documentation,0.0,0.0,0.0,0.0013709948486792113,0.012722475972518318,0.012722475972518318,0.7385155558586121
+deepseek-coder-33b,True,category,false positive,0.0,0.0,0.0,0.0010949741420907303,0.005714285714285715,0.005714285714285715,0.740243136882782
+deepseek-coder-33b,True,category,functional,0.0,0.0,0.0,0.0017584878992272651,0.01132845546523364,0.01071407638026632,0.7400767803192139
+deepseek-coder-33b,True,category,refactoring,0.0,0.0,0.0,0.0024477271305004085,0.01247617723014705,0.011978914636110264,0.741220235824585
+deepseek-coder-33b,False,overall,ALL,0.0,0.0,0.0,0.0019193708447614141,0.01190673252435771,0.011443702994092333,0.7460014820098877
+deepseek-coder-33b,False,subcategory,alternate output,0.0,0.0,0.0,0.002575576850449833,0.011670881151526941,0.011670881151526941,0.7576913833618164
+deepseek-coder-33b,False,subcategory,code organization,0.0,0.0,0.0,0.007579216549838026,0.03151859528001914,0.030176313400824516,0.7490266561508179
+deepseek-coder-33b,False,subcategory,design discussion,0.0,0.0,0.0,0.0,0.0,0.0,0.7495511174201965
+deepseek-coder-33b,False,subcategory,documentation,0.0,0.0,0.0,0.0014480287179889815,0.014518681870988414,0.014518681870988414,0.7454171180725098
+deepseek-coder-33b,False,subcategory,false positive,0.0,0.0,0.0,0.0012064803452402917,0.006349206349206349,0.006349206349206349,0.7473421096801758
+deepseek-coder-33b,False,subcategory,functional,0.0,0.0,0.0,0.0027292203569790332,0.01563845050215208,0.01563845050215208,0.7477763891220093
+deepseek-coder-33b,False,subcategory,interface,0.0,0.0,0.0,0.0013432944104709724,0.006649042698069376,0.006649042698069376,0.7463935017585754
+deepseek-coder-33b,False,subcategory,logical,0.0,0.0,0.0,0.002071663584822926,0.015252455013587574,0.0129797277408603,0.7493606805801392
+deepseek-coder-33b,False,subcategory,praise,0.0,0.0,0.0,0.0,0.0,0.0,0.735422670841217
+deepseek-coder-33b,False,subcategory,question,0.0,0.0,0.0,0.00135819302368432,0.008541159250214087,0.007926908635963474,0.7430130243301392
+deepseek-coder-33b,False,subcategory,resource,0.0,0.0,0.0,0.0012064803452402917,0.005333333333333334,0.005333333333333334,0.755724310874939
+deepseek-coder-33b,False,subcategory,solution approach,0.0,0.0,0.0,0.0011233160695438517,0.01214780065775389,0.01214780065775389,0.7480503916740417
+deepseek-coder-33b,False,subcategory,support issues,0.0,0.0,0.0,0.0007574921724854346,0.004290468743734712,0.004290468743734712,0.7400038242340088
+deepseek-coder-33b,False,subcategory,timing,0.0,0.0,0.0,0.0014042418601084555,0.013802500104309848,0.011392861550092979,0.7384209632873535
+deepseek-coder-33b,False,subcategory,unknown,0.0,0.0,0.0,,,,
+deepseek-coder-33b,False,subcategory,validation,0.0,0.0,0.0,0.0029692637598641367,0.01945775379722801,0.01945775379722801,0.7459097504615784
+deepseek-coder-33b,False,subcategory,variable naming,0.0,0.0,0.0,0.001158022729746146,0.008673733867617299,0.007598465050412997,0.7477598190307617
+deepseek-coder-33b,False,subcategory,visual representation,0.0,0.0,0.0,0.0005166516963349894,0.002079002079002079,0.002079002079002079,0.7451083660125732
+deepseek-coder-33b,False,category,discussion,0.0,0.0,0.0,0.0009306137384503675,0.005852275782554097,0.005431400361678677,0.7421932816505432
+deepseek-coder-33b,False,category,documentation,0.0,0.0,0.0,0.0014480287179889815,0.014518681870988414,0.014518681870988414,0.7454171180725098
+deepseek-coder-33b,False,category,false positive,0.0,0.0,0.0,0.0012064803452402917,0.006349206349206349,0.006349206349206349,0.7473421096801758
+deepseek-coder-33b,False,category,functional,0.0,0.0,0.0,0.0019298911135591102,0.012924658660379604,0.012229149350412463,0.7465961575508118
+deepseek-coder-33b,False,category,refactoring,0.0,0.0,0.0,0.0027258414857263625,0.014777508760225808,0.014265905547821558,0.7481827735900879
+phi3:latest,True,overall,ALL,0.0019311892875111265,0.0047138047138047135,0.0012626262626262627,0.0023484693810488858,0.10044190865996488,0.06133934278779595,0.8067020773887634
+phi3:latest,True,subcategory,'code organization',0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"'code organization', 'variable naming', 'documentation'.",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"'logical', 'functional', 'solution approach'",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,'solution approach',0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"'validation', 'documentation', 'support issues'.",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"** `documentation`, with implications to both the `@comment@` annotations used here (as they appear outdated) and potential enhancements regarding visual representation of results within this function.",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** `validation`,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"** alternate output ✅ (i also want this review categorized under 'alternate output' because providing a clear, actionable warning message is an essential aspect of user feedback and system guidance.)",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** alternate output/validation issues,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** code organization,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** design discussion,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** documentation & variable naming,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** documentation + solution approach,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"** documentation, solution approach ✅",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"** false positive (the error message seems misleading as there appears to be a genuine issue of missing 'tried' definition, which is actually an initialization mistake.)",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** functional,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** functional & validation,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** functional and design discussion,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** functional and logical,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** functional review,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"** functional, logical , validation",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** interface,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** logical & validation,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** logical ✅,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** resource,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** resource management and validation,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** solution approach,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"** solution approach, documentation ✅",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"** solution approach, interface",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"** solution approach, interface ✅",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"** solution approach, resource ✅",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** support issues,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** timing,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"** timing and resource (specifically, variable naming) issues that need attention in code clarity and consistency across the project.",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,** validation,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"** validation, code organization, variable naming",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**code organization & documentation**,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**code organization and documentation**,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**code organization**,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**documentation & solution approach**,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**documentation### code to review (extended):,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**functional & solution approach**,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**functional + design discussion,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**functional and documentation issues**,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**functional and logical**,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**functional**,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**functional** and **design discussion**,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"**functional**, given that the main purpose is to refine a function's operational aspect.",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"**functional, logical, validation, interface**",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"**functional, solution approach**",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**logical & validation issues combined into one review category due to the nature of boolean indexing problems highlighted in these lines affecting logical flow and validation checks within pandas operations.**,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**logical**,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"**logical, validation & code organization**",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**solution approach**,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**solution approach** and **code organization**,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**support issues**,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**validation + solution approach**,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**validation issues**,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,**validation**,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,- functional,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"`functional, logical, validation, timing`",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"`functional`, due to its focus on reviewing specific functionalities and their modern equivalents within pytorch modules, despite some elements that could fit into other categories like 'solution approach'. the code's intentions are clear but fall short of the best practices for python coding style and utilization in neural networks.",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,`solution approach`,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,`syntax`,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,alternate output,0.0,0.0,0.0,0.003927747370356837,0.12812676880219584,0.08380379990271825,0.8376278877258301
+phi3:latest,True,subcategory,alternate output ✅,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,code organization,0.06666666666666667,0.1,0.05,0.0025469639535218086,0.12636739873485267,0.08157662349913682,0.8094980120658875
+phi3:latest,True,subcategory,code organization & resource management,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"code organization and naming convention, code readability & maintainability improvements",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,design discussion,0.0,0.0,0.0,0.0025104433756277466,0.11657176350032845,0.08249443393059687,0.8315365314483643
+phi3:latest,True,subcategory,documentation,0.06896551724137931,0.2,0.041666666666666664,0.0020887170245379666,0.09088113348575176,0.055370502978900886,0.8053333759307861
+phi3:latest,True,subcategory,documentation and style improvement,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,evaluation and design discussion,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,false positive,0.0,0.0,0.0,0.0014645242951124792,0.0487589434044121,0.036239161445558575,0.8133413195610046
+phi3:latest,True,subcategory,functional,0.0,0.0,0.0,0.0016909550324353574,0.0878662757436096,0.06300414475016071,0.8123987913131714
+phi3:latest,True,subcategory,functional & code organization,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,functional & validation,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,functional and logical review issues,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,functional and validation,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"functional, resource, variable naming, documentation, alternate output",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,interface,0.0,0.0,0.0,0.00222062380875943,0.1066519816002059,0.061141938025898804,0.8123219609260559
+phi3:latest,True,subcategory,logical,0.0,0.0,0.0,0.0030324358218228285,0.1407191055315655,0.07542489709273717,0.8094758987426758
+phi3:latest,True,subcategory,praise,0.0,0.0,0.0,0.0012759404972872217,0.05109097601359554,0.030347812573630516,0.7898809313774109
+phi3:latest,True,subcategory,question,0.0,0.0,0.0,0.002079417732377588,0.08619490373711022,0.05542632230543232,0.8061047196388245
+phi3:latest,True,subcategory,resource,0.0,0.0,0.0,0.0019234249568382393,0.09485316544569009,0.06824801606380015,0.8127360343933105
+phi3:latest,True,subcategory,resource issues,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,resource ✅,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,solution approach,0.05555555555555555,0.16666666666666666,0.03333333333333333,0.0027821837089288524,0.1299466994593232,0.06844546639955751,0.8070642948150635
+phi3:latest,True,subcategory,solution approach & code organization,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,solution approach and performance issues,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,support issues,0.0,0.0,0.0,0.00195455483227387,0.07809294882654505,0.04834068495446701,0.7813339829444885
+phi3:latest,True,subcategory,timing,0.0,0.0,0.0,0.005122583958595746,0.17554483370728152,0.0902909145433454,0.8033169507980347
+phi3:latest,True,subcategory,unknown,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,validation,0.0,0.0,0.0,0.003239286310295323,0.12647363992200558,0.07978399103771451,0.8112958669662476
+phi3:latest,True,subcategory,validation issues,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,"validation, code organization",0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,variable naming,0.0,0.0,0.0,0.0018685639491015974,0.06775619374294853,0.04580612843037339,0.7992510199546814
+phi3:latest,True,subcategory,version,0.0,0.0,0.0,,,,
+phi3:latest,True,subcategory,visual representation,0.0,0.0,0.0,0.001432973594244833,0.056934551145136646,0.03657674138163265,0.8016153573989868
+phi3:latest,True,category,discussion,0.0,0.0,0.0,0.0019636381818869753,0.08241931028564074,0.053325304948046534,0.8056256175041199
+phi3:latest,True,category,documentation,0.06896551724137931,0.2,0.041666666666666664,0.0020887170245379666,0.09088113348575176,0.055370502978900886,0.8053333759307861
+phi3:latest,True,category,false positive,0.0,0.0,0.0,0.0014645242951124792,0.0487589434044121,0.036239161445558575,0.8133413195610046
+phi3:latest,True,category,functional,0.0,0.0,0.0,0.0026740923445028775,0.11452978087713374,0.06964972255023368,0.8056245446205139
+phi3:latest,True,category,refactoring,0.024444444444444442,0.05333333333333333,0.01666666666666667,0.0025288684116201673,0.10945024356251179,0.06474401085147752,0.808031439781189
+phi3:latest,False,overall,ALL,0.0,0.0,0.0,0.0029079587630503776,0.06659565235214922,0.04794735056857591,0.7156063318252563
+phi3:latest,False,subcategory,alternate output,0.0,0.0,0.0,0.0023879083908389808,0.04357868900068389,0.03778158755140852,0.6445234417915344
+phi3:latest,False,subcategory,code organization,0.0,0.0,0.0,0.0034372254594745113,0.08071533299877125,0.05914390720161154,0.7856608629226685
+phi3:latest,False,subcategory,design discussion,0.0,0.0,0.0,0.0033508699380743116,0.0685053840690415,0.03861377874144271,0.6579679846763611
+phi3:latest,False,subcategory,documentation,0.0,0.0,0.0,0.0034507383949022607,0.06398922338870412,0.050617035761783,0.7248191237449646
+phi3:latest,False,subcategory,false positive,0.0,0.0,0.0,0.0015066416059426563,0.04752961237477543,0.028017417252824212,0.7862352132797241
+phi3:latest,False,subcategory,functional,0.0,0.0,0.0,0.002362801382250061,0.06203531917817632,0.04880780595066309,0.7992898225784302
+phi3:latest,False,subcategory,interface,0.0,0.0,0.0,0.0030413912533090526,0.07540213389655269,0.05554526280315656,0.7807842493057251
+phi3:latest,False,subcategory,logical,0.0,0.0,0.0,0.0029814825377627893,0.08436623246083376,0.06369427911194803,0.7877126932144165
+phi3:latest,False,subcategory,praise,0.0,0.0,0.0,0.0017262380334992474,0.04694767927369063,0.03370752004692668,0.6447495818138123
+phi3:latest,False,subcategory,question,0.0,0.0,0.0,0.0028986837441894097,0.05958856793118925,0.04246102726320902,0.7016453742980957
+phi3:latest,False,subcategory,resource,0.0,0.0,0.0,0.004557030823480708,0.041568252253063494,0.029444256845485996,0.643021285533905
+phi3:latest,False,subcategory,solution approach,0.0,0.0,0.0,0.002614976929895241,0.07712177134857555,0.05023295773365579,0.6858512759208679
+phi3:latest,False,subcategory,support issues,0.0,0.0,0.0,0.002018166737079942,0.05842695408760735,0.046317786096086416,0.6469147205352783
+phi3:latest,False,subcategory,timing,0.0,0.0,0.0,0.0012277495135420583,0.0751988783703255,0.044696010433983135,0.7753089666366577
+phi3:latest,False,subcategory,unknown,0.0,0.0,0.0,,,,
+phi3:latest,False,subcategory,validation,0.0,0.0,0.0,0.003692304455859702,0.08397814954720745,0.05976111857559992,0.6785708665847778
+phi3:latest,False,subcategory,variable naming,0.0,0.0,0.0,0.003732803782302382,0.07270575815396171,0.05558260787454829,0.7368773221969604
+phi3:latest,False,subcategory,visual representation,0.0,0.0,0.0,0.0019963317128175507,0.04494419375050261,0.03537760220898943,0.7280823588371277
+phi3:latest,False,category,discussion,0.0,0.0,0.0,0.0027100951209619584,0.058004329442200894,0.040250433364881176,0.685202419757843
+phi3:latest,False,category,documentation,0.0,0.0,0.0,0.0034507383949022607,0.06398922338870412,0.050617035761783,0.7248191237449646
+phi3:latest,False,category,false positive,0.0,0.0,0.0,0.0015066416059426563,0.04752961237477543,0.028017417252824212,0.7862352132797241
+phi3:latest,False,category,functional,0.0,0.0,0.0,0.0030366430771272034,0.07173949396235198,0.05192023783987702,0.7070556879043579
+phi3:latest,False,category,refactoring,0.0,0.0,0.0,0.0028868908534078397,0.07093641249068042,0.050954093275436006,0.7334050536155701
